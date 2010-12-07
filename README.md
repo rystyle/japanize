@@ -17,9 +17,9 @@ Since there is no practical use of this (and doing massive pollution of global a
     japanize (0.0.1)
     [japanize (master)]$ irb
     ruby-1.9.2-p0 > require 'japanize'
-    => true 
+    => true
     ruby-1.9.2-p0 > １に２をたして４を掛ける
-    => 12 
+    => 12
 
 ## Prerequisite
 
@@ -43,7 +43,7 @@ Since there is no practical use of this (and doing massive pollution of global a
 - [Reverse Polish Notation](http://en.wikipedia.org/wiki/Reverse_Polish_notation)(En) = Japanese and rpn are similar.
 - Forth = http://en.wikipedia.org/wiki/Forth_(programming_language) , RPN based programming language
 - [Nadeshiko](http://nadesi.com/)(Ja) = Japanese programming language. Influenced by Forth and Python
-- [Mind](http://www2.airnet.ne.jp/sardine/langs/Mind.html)(Ja) = Japanese programming language 
+- [Mind](http://www2.airnet.ne.jp/sardine/langs/Mind.html)(Ja) = Japanese programming language
 - [Wikipedia](http://en.wikipedia.org/wiki/Japanese_language)(En)
 - [Bilingual Grammar Glossary for Japan](http://www.davidappleyard.com/english/jgrammar.htm)(En/Ja)
 

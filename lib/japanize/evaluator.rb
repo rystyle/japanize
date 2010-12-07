@@ -2,14 +2,16 @@ module Japanize
   class Evaluator
     def initialize(sequence)
       # p "sequence is #{sequence}"
+
       @sequence = sequence
-      @stack = []
+      @stack    = []
     end
 
     def evaluate
       @sequence.each do |insn|
         dispatch insn
       end
+
       @stack.first
     end
 

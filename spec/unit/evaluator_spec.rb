@@ -2,8 +2,8 @@
 require 'minitest/spec'
 require 'minitest/autorun'
 require 'japanize'
-describe Evaluator do
 
+describe Evaluator do
   it "must calculate single operation" do
     Evaluator.new([1, 2, :+]).evaluate.must_equal 3
   end

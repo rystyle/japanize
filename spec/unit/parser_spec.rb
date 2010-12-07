@@ -3,9 +3,7 @@ require 'minitest/spec'
 require 'minitest/autorun'
 require 'japanize'
 
-
 describe Parser do
-
   it "must parse addition" do
     Parser.new("１　に　２　を　たす").parse.must_equal [1, 2, :+]
   end
@@ -21,6 +19,5 @@ describe Parser do
   it "must divide a phrase into words" do
     Parser.new("１に２をたして４を掛ける").parse.must_equal [1, 2, :+, 4, :*]
   end
-
 end
 
