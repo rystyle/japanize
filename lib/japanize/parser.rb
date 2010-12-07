@@ -64,8 +64,6 @@ module Japanize
         converted << 数字[s]
       end
 
-      ## p "converted: #{converted}"
-
       if converted.match(/\./)
         converted.to_f
       else
@@ -80,12 +78,6 @@ module Japanize
     end
 
     def parse
-      ## puts "seq: #{@sequence}"
-
-      # @sequence.split('　').map do |s|
-      #   s.split(/#{助詞.join("|")}/)
-      # end.flatten.map do |s|
-
       @sequence.gsub('　', '').split(/#{助詞.join("|")}/).map do |s|
         if 動詞[s]
           動詞[s]
